@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Tests;
+
 use App\MissingNumber;
 use PHPUnit\Framework\TestCase;
 
@@ -9,7 +11,7 @@ class MissingNumberTest extends TestCase
 	 * @test
 	 * @dataProvider numbers
 	 */
-	public function first_missing_number($expected, $numbers)
+	public function first_missing_number_should_be($expected, $numbers)
 	{
 		$missingNumber = MissingNumber::getFirstMissingNumber($numbers);
 
