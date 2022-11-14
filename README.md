@@ -31,6 +31,9 @@ make test-prime-factors
 
 ## Challenges
 
+### Back to the Checkout
+[Kata09: Back to the Checkout](http://codekata.com/kata/kata09-back-to-the-checkout/)
+
 ### First missing number
 Given an unsorted integer array `nums`, return the smallest missing positive integer.
 
