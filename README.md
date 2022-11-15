@@ -19,6 +19,9 @@ Use the make command to run all tests or separately by challenges
 #all test
 make tests
 
+#Back to the Checkout
+make test-checkout
+
 #First missing number
 make test-missing-number
 
